@@ -3,7 +3,7 @@ function exe6(){
     var alt = Number(prompt("Digite sua altura: "));
     var sexo = prompt("Digite seu gênero (m) masculino (f) feminino: ");
     resultado = peso_Ideal(alt, sexo);
-    alert(resultado);
+    alert(resultado.toFixed(2));
 }
 
 function peso_Ideal(alt, sexo) {
